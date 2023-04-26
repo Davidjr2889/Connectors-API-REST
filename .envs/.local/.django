@@ -1,0 +1,6 @@
+CELERY_BROKER=redis://redis:6379/0
+CELERY_BACKEND=redis://redis:6379/0
+
+DOMAIN=localhost:8000
+EMAIL_PORT=1025
+

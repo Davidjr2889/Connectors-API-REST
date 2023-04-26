@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+from django.utils.translation import gettext_lazy as _
+
+
+class CsvConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'connector_apps.Csv'
+    verbose_name = _('Csv')
